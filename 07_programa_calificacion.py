@@ -1,6 +1,7 @@
 #lee la nota de un alumno y dependiendo del número (0 -10)
 #le indica si es suspenso (menos de 5), aprobado (5 o 6),
 #notable (7 o 8) o sobresaliente (9 o 10)
+#utilizamos match
 nota=int(input("Introduce nota: "))
 match nota:
     case 0|1|2|3|4:
